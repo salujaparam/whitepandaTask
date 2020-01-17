@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.services {
+   background-color: rgba(241, 241, 241, 0.2)
+  }
+  .center {
+    width: 70vw;
+    margin: 0 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 2rem;
+  }
+  .service {
+    margin: 2rem 0;
+    text-align: center;
+    width: 100%
+  }
+  .service span {
+    background: var(--primaryColor);
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .service h4 {
+    margin-bottom: 0px;
+  }
+
+  p{
+  padding:0px;
+  margin: 0px;
+  width: 100%;
+  }
+  
+  .crop {
+    opacity: 0.5;
+    height: 65px;
+    width: 65px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 20px;
+   }
+
+   .serv {
+     display: flex;
+   }
+
+   .item-headers {
+     padding-left: 40px;
+   }
+
+   button {
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid #00cdcd;
+    padding: 10px; 
+    color: #00cdcd;
+    font-weight: bold;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+
+.head-four {
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #c0c0c0;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.service:hover > .serv {
+  color: #00cdcd;
+}
+
+.service:hover .serv .crop {
+  background-image: none !important;
+  background-color: #00cdcd;
+}
+
+.service:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}

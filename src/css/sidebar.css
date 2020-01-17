@@ -1,0 +1,19 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 40px 40px;
+    padding-top: 60px;
+    height: 100%;
+}
+
+.item {
+    padding: 10px 20px 20px 10px;
+    font-size: 30px;
+    color: 	#A9A9A9;
+    cursor: pointer;
+}
+
+.active {
+    color: teal;
+    border-right: teal 2px solid;
+} 
